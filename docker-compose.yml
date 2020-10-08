@@ -1,0 +1,8 @@
+webserverlucas:
+  image: springboot/maven-cache-resource:latest
+  ports:
+    - 8080:8080
+  volumes:
+    - ./:/var/www/html
+  working_dir: /var/www/html
+  entrypoint: mvn spring-boot:run

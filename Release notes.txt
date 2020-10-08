@@ -1,0 +1,2 @@
+Atravez do windows power shell, navegar atá a pasta lucas-thome e rodar o seguinte comando
+docker-compose up
